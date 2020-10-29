@@ -1,6 +1,6 @@
 # weather_art
 
-A new Flutter project.
+A simple flutter project that shows a cool way to structure flutter code and ensure separation of concerns.
 
 ## Getting Started
 
