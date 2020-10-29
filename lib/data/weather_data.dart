@@ -8,7 +8,7 @@ class WeatherData{
 
     try{
       var response = await dio.get(
-          'http://api.openweathermap.org/data/2.5/weather?q=lagos&appid=25e5dff10d2289caad19b034748e8c23',
+          'http://api.openweathermap.org/data/2.5/weather?q=lagos&appid={api_key}',
 
       ).timeout(Duration(minutes: 2), onTimeout: () async{
         return Response(
